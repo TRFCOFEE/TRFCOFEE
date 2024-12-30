@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taraf Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu-section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .menu-header {
+            background-color: #ff7f50;
+            color: #fff;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taraf Cafe</h1>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="menu" class="menu-section">
+            <div class="menu-header">Our Menu</div>
+            <div class="menu-item">
+                <span>Espresso</span>
+                <span>10 SAR</span>
+            </div>
+            <div class="menu-item">
+                <span>Latte</span>
+                <span>15 SAR</span>
+            </div>
+            <div class="menu-item">
+                <span>Neapolitan Pizza</span>
+                <span>30 SAR</span>
+            </div>
+            <div class="menu-item">
+                <span>Mango Juice</span>
+                <span>18 SAR</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Taraf Cafe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
